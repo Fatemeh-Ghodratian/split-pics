@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>split picturs</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <section id="buttons">
+            <button type="button" id="nature">
+                split natures pics
+            </button>
+            <button id="animals">
+                split animals pics
+            </button>
+            <button id="flowres">
+                    split flowres pics
+            </button>
+            <button id="all">
+                    all pics
+            </button> 
+        </section>
+        <section id="pics">
+                <img src="./images/animal2.jpg" class="animals" onclick="onClick(this)"/>
+                <img src="./images/flower1.jpg" class="flowres" onclick="onClick(this)"/>
+                <img src="./images/flower5.jpg" class="flowres" onclick="onClick(this)"/>
+                <img src="./images/nature1.jpg" class="nature" onclick="onClick(this)"/>
+                <img src="./images/animal3.jpg" class="animals" onclick="onClick(this)"/>
+                <img src="./images/flower4.jpeg" class="flowres" onclick="onClick(this)"/>
+                <img src="./images/nature2.jpg" class="nature" onclick="onClick(this)"/>
+                <img src="./images/animal5.jpg" class="animals" onclick="onClick(this)"/>
+                <img src="./images/nature3.jpg" class="nature" onclick="onClick(this)"/>
+                <img src="./images/flower3.jpg" class="flowres"onclick="onClick(this)"/>
+                <img src="./images/animal4.jpg" class="animals" onclick="onClick(this)"/>
+                <img src="./images/animal1.jpg" class="animals" onclick="onClick(this)"/>
+                <img src="./images/nature5.jpg" class="nature" onclick="onClick(this)"/>
+                <img src="./images/flower2.jpg" class="flowres" onclick="onClick(this)"/>
+                <img src="./images/nature4.jpg" class="nature" onclick="onClick(this)"/> 
+        </section>
+    </main>
+    <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-img">
+    </div>
+    
+</body>
+<script src="./js/script.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</html>
